@@ -1,0 +1,16 @@
+/* 디바이스 - 태블릿 577~1000px */
+@media screen and (max-width:1000px) {
+    /* 헤더 메뉴 숨기기 */
+    header .left, header .right {display:none;}
+    /* 아이템 좌우 패딩값 20px */
+    main section .item_g {padding:0 20px;}
+    main section .item_g a img {width:100%;}
+}
+
+/* 디바이스 - 모바일 ~576px */
+@media screen and (max-width:576px) {
+    /* new arrivals 폰트 사이즈 변경 */
+    main section h2 {font-size:1.5rem;}
+    /* 아이템 좌우 패딩값 16px */
+    main section .item_g {padding:0 16px;}
+}
